@@ -16,7 +16,7 @@ def run_firstgame():
 
 window = Tk()
 
-window.geometry("1000x650")
+window.geometry("900x650")
 window.configure(bg = "#200606")
 canvas = Canvas(
     window,
@@ -42,7 +42,7 @@ b0 = Button(
     relief = "flat")
 
 b0.place(
-    x = 3, y = 162,
+    x = 13, y = 162,
     width = 253,
     height = 167)
 
@@ -85,8 +85,8 @@ b3 = Button(
 
 b3.place(
     x = 692, y = 451,
-    width = 100,
-    height = 100)
+    width = 105,
+    height = 95)
 
 window.resizable(False, False)
 window.mainloop()
